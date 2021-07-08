@@ -1,0 +1,58 @@
+/* General */
+
+h1 {
+  font-weight: normal;
+  font-size: 1rem;
+  padding: var(--txtmargen);
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: var(--txtmargen);
+  color: var(--txtheadseccol);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.1;
+  padding: var(--txtmargen);
+}
+
+strong {
+  color: var(--txtimpcol);
+}
+
+b {
+  color: var(--txtheadcol);
+}
+
+em,
+i {
+  color: var(--txta);
+}
+
+p {
+  font-size: 1rem;
+  padding: var(--txtmargen);
+}
+
+a {
+  font-style: italic;
+  color: var(--txta);
+}
+
+/* Especiales */
+header h1 {
+  color: var(--txtheadcol);
+  text-align: right;
+}
+
+header p {
+  color: var(--txtheadseccol);
+  font-size: 1.5rem;
+}
+
+.no-col {
+  color: var(--txtcol);
+}

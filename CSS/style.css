@@ -1,0 +1,151 @@
+/* Form */
+
+form {
+  display: flex;
+}
+label {
+  padding: var(--txtmargen);
+}
+
+input {
+  flex: 1;
+  background-color: var(--bgcol);
+  color: var(--txta);
+  border: none;
+  animation: parpadeo 1s infinite linear;
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+input:valid {
+  animation: unset;
+}
+
+/* Copyright */
+
+#copyright {
+  width: 300px;
+  padding: var(--blockpadding);
+  margin: var(--txtmargen);
+  margin-left: auto;
+  margin-right: auto;
+  border: var(--border);
+}
+
+/* Menu */
+
+dl {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  display: var(--visibility);
+}
+
+.caja {
+  margin: var(--txtmargen);
+  padding: 5px 0px;
+}
+
+dt {
+  flex: 1;
+  margin: var(--txtmargen);
+  min-width: var(--width);
+  max-width: var(--width);
+}
+
+dd {
+  margin: var(--txtmargen);
+}
+
+/* Contenido */
+#welcome {
+  display: var(--visibility);
+}
+
+#about {
+  display: var(--visibility);
+}
+
+#help {
+  display: var(--visibility);
+}
+
+#menu-secreto {
+  display: var(--visibility);
+}
+
+#portfolio {
+  display: var(--visibility);
+}
+#services {
+  display: var(--visibility);
+}
+#contact {
+  display: var(--visibility);
+}
+
+div {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+img {
+  width: 280px;
+  border: var(--border);
+  margin: var(--txtmargen);
+}
+
+dd a:hover ~ figure {
+  display: flex;
+}
+
+figure {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: black;
+  margin: var(--txtmargen);
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--blockpadding);
+  border: var(--border);
+}
+
+figcaption {
+  margin: var(--txtmargen);
+}
+
+blockquote {
+  font-style: italic;
+  width: 300px;
+  margin: 5px auto;
+}
+
+/* iframe */
+
+iframe {
+  display: none;
+}

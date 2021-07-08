@@ -1,0 +1,13 @@
+:root {
+  --txtcol: darkgray;
+  --txtheadcol: #a69b03;
+  --txtheadseccol: #0476d9;
+  --txtimpcol: #f24452;
+  --txta: rebeccapurple;
+  --bgcol: #041626;
+  --border: 1px dotted rebeccapurple;
+  --txtmargen: 5px 0px;
+  --blockpadding: 5px 10px;
+  --width: 130px;
+  --visibility: none;
+}

@@ -1,0 +1,39 @@
+* {
+  font-family: "Consolas", monospace;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgcol);
+  height: 100vh;
+}
+
+header {
+  border-bottom: var(--border);
+  width: 100%;
+  padding: var(--blockpadding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1;
+  padding: var(--blockpadding);
+  color: var(--txtcol);
+}
+
+footer {
+  width: 100%;
+  padding: var(--blockpadding);
+  color: var(--txtcol);
+  border-top: var(--border);
+}

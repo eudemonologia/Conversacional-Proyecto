@@ -1,0 +1,16 @@
+let lienzo = document.querySelector("#lienzo");
+let dibujo = lienzo.getContext("2d");
+let fondo = new Image();
+fondo.src = "IMG/tile.png";
+let vaca = new Image();
+vaca.src = "IMG/vaca.png";
+let cerdo = new Image();
+cerdo.src = "IMG/cerdo.png";
+let pollo = new Image();
+pollo.src = "IMG/pollo.png";
+let lobo = new Image();
+lobo.src = "IMG/lobo.png";
+let xLobo = 210;
+let yLobo = 210;
+let x;
+let y;

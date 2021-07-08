@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: var(--bgcolor);
+}
+
+header {
+  background: var(--headcolor);
+  padding: var(--paddone);
+}
+
+h1 {
+  font-family: var(--fontheader);
+  font-size: 3rem;
+  color: var(--fontonecolor);
+}
+
+p {
+  font-family: var(--fontgeneral);
+  color: var(--fontonecolor);
+}
+
+a {
+  font-family: var(--fontgeneral);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--fonttwocolor);
+}
+
+li {
+  list-style: none;
+}
